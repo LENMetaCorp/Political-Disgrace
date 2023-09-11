@@ -77,8 +77,7 @@ contract PoliticalCorruptionControl is AccessControl, ReentrancyGuard {
         Politician memory politician = politicians[tokenId];
         Series memory series = seriesMapping[politician.series];
     
-        // Construct the URI dynamically
-        return string(abi.encodePacked(series.baseUri, "/", politician.name, "/", uint2str(politician.number)));
+        return URILib.constructURI(series.baseUri, politician.name, politician.number);
     }
 
     // Helper function for uint to string conversion
