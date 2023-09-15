@@ -1,18 +1,25 @@
 {
-  "name": "hardhat-project",
-  "devDependencies": {
-    "@nomiclabs/hardhat-ethers": "^2.2.3",
-    "@nomiclabs/hardhat-etherscan": "^3.1.7",
-    "@nomiclabs/hardhat-waffle": "^2.0.6",
-    "chai": "^4.3.8",
-    "ethereum-waffle": "^4.0.10",
-    "ethers": "^5.7.2",
-    "hardhat": "^2.17.2",
-    "ts-node": "^10.9.1"
+  "name": "politicaldisgrace_onchain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LENMetaCorp/Political-Disgrace.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LENMetaCorp/Political-Disgrace/issues"
+  },
+  "homepage": "https://github.com/LENMetaCorp/Political-Disgrace#readme",
   "dependencies": {
-    "@openzeppelin/contracts": "^4.9.3",
-    "@openzeppelin/contracts-upgradeable": "^4.9.3",
-    "dotenv": "^16.3.1"
+    "ethers": "^6.7.1",
+    "hardhat": "^2.17.3",
+    "waffle": "^0.0.4"
   }
 }
