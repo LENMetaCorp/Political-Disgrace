@@ -1,0 +1,6 @@
+[submodule "path/to/submodule/seadrop"]
+	path = path/to/submodule/seadrop
+	url = https://github.com/ProjectOpenSea/seadrop.git
+[submodule "submodules/seadrop"]
+	path = submodules/seadrop
+	url = https://github.com/ProjectOpenSea/seadrop.git
