@@ -7,7 +7,7 @@ import "@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol";
 import "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol";
 import "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol";
 import "./PoliticalCorruptionControl.sol";
-import "./ERC721SeaDropUpgradeable.sol";
+import "../seadrop/src-upgradeable/src/ERC721SeaDropUpgradeable.sol";
 import "./libraries/ValidationLib.sol";
 import "./libraries/StatisticsLib.sol";
 

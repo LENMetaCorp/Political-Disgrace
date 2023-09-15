@@ -3,7 +3,7 @@ pragma solidity ^0.8.21;
 
 import "@openzeppelin/contracts/access/AccessControl.sol";
 import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
-import "./PoliticanCorruptionPacks.sol";
+import "./PoliticalCorruptionPacksERC721Upgradable.sol";
 
 contract PoliticalCorruptionControl is AccessControl, ReentrancyGuard {
     PoliticanCorruptionPacks private corruptionPacks;
